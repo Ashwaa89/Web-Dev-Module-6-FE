@@ -45,7 +45,6 @@ const NewBlogPost = (props) => {
       console.error(error);
     }
   };
-  console.log(props.User);
   return (
     <>
       {props.User === undefined ? (

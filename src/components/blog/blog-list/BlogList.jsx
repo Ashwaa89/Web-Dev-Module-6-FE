@@ -27,8 +27,7 @@ const BlogList = (props) => {
     if (response.ok) {
 
       let resposts = await response.json();
-      console.log(resposts)
-      setPosts(resposts.blogPosts);
+          setPosts(resposts.blogPosts);
       setLinks(resposts.links);
     //  settotalPages(resposts.totalPages);
       setLinks(resposts.links);
